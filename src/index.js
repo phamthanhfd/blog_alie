@@ -32,7 +32,7 @@ route(app);
 app.listen(port, () => {
            
     
-                            console.log('Example app listening at http://localhost:${port}'); //127.0.0.1 - localhost
+                                 console.log('Example app listening at http://localhost:${port}'); //127.0.0.1 - localhost
 });
 
 // Ctrl + C to turn off server localhost

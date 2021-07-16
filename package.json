@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phamthanhfd/nodejs_blog.git"
+    "url": "git+https://github.com/phamthanhfd/blog_alie.git"
   },
   "keywords": [
     "blog",
@@ -20,10 +20,6 @@
   ],
   "author": "phamthanhfd",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/phamthanhfd/nodejs_blog/issues"
-  },
-  "homepage": "https://github.com/phamthanhfd/nodejs_blog#readme",
   "lint-staged":{
     "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
   },

@@ -24,13 +24,15 @@ app.engine('hbs', exphbs());
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'resources/views'));
   
-                app.engine('.hbs', exphbs({ extname: '.hbs' }));
+                   app.engine('.hbs', exphbs({ extname: '.hbs' }));
 
 //Routes init
 route(app);
 
 app.listen(port, () => {
-                 console.log('Example app listening at http://localhost:${port}'); //127.0.0.1 - localhost
+           
+    
+                            console.log('Example app listening at http://localhost:${port}'); //127.0.0.1 - localhost
 });
 
 // Ctrl + C to turn off server localhost
